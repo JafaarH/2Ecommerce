@@ -1,0 +1,51 @@
+.bgcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.img2{
+    max-width: 70px;
+    float: left;
+    margin-bottom: 5px;
+}
+.smcontainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 130px;
+    margin-top: 10px;
+    border-bottom: solid 2px lightseagreen;
+}
+
+.bttn {
+    height: 50px;
+    font-size: 15px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+.hp {
+    margin-top: 30px;
+    margin-right: 50%;
+}
+.bttn:hover{
+    background-color: red;
+}
+
+@media (max-width: 900px) {
+    .hp {
+        margin-top: 30px;
+    margin-right: 50%;
+    }
+   
+}
+@media (max-width: 1400px) {
+    .hp {
+        margin-right: 60%;
+    }
+}

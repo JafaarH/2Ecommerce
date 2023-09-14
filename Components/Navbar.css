@@ -1,0 +1,13 @@
+.link {
+    text-decoration: none !important;
+    color: blue;
+}
+.link:hover{
+    color: blue;
+}
+.cart:hover {
+    color: blue;
+}
+.badge {
+    color: white;
+}
